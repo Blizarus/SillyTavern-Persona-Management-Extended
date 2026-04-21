@@ -106,7 +106,9 @@ function renderAdvancedControls(entity, { kind, patch, onAnyChange }) {
     el(
       "div",
       "text_muted pme-adv-help",
-      t`When enabled, this ${kind} is activated automatically when the current chat or character matches one of the bindings below.`
+      kind === "group"
+        ? t`When enabled, this group is activated automatically when the current chat or character matches one of the bindings below.`
+        : t`When enabled, this item is activated automatically when the current chat or character matches one of the bindings below.`
     )
   );
 
