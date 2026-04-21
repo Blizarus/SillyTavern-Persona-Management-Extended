@@ -1,6 +1,6 @@
 import { el, setHidden } from "./dom.js";
 import { UI_EVENTS } from "../uiBus.js";
-import { t } from "../../../../../i18n.js";
+import { t } from "../../../../../../i18n.js";
 
 /**
  * Native Persona Management blocks we temporarily relocate into our Advanced UI.

@@ -1,6 +1,6 @@
 import { el, setHidden } from "./dom.js";
 import { getPmeSettings, patchPmeSettings } from "../../store/personaStore.js";
-import { t } from "../../../../../i18n.js";
+import { t } from "../../../../../../i18n.js";
 
 const WRAPPER_PLACEHOLDER = "{{PROMPT}}";
 const WRAPPER_TEXTAREA_ID = "pme_settings_wrapper_template";

@@ -10,7 +10,7 @@ import { callGenericPopup, POPUP_RESULT, POPUP_TYPE } from "/scripts/popup.js";
 
 import { el, setHidden } from "./dom.js";
 import { UI_EVENTS } from "../uiBus.js";
-import { t } from "../../../../../i18n.js";
+import { t } from "../../../../../../i18n.js";
 
 function clickNative(id) {
   const node = document.getElementById(id);

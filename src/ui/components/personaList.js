@@ -8,7 +8,7 @@ import { getThumbnailUrl } from "/script.js";
 import { getPersonaSortMode, setPersonaSortMode } from "../../core/mode.js";
 import { el } from "./dom.js";
 import { UI_EVENTS } from "../uiBus.js";
-import { t } from "../../../../../i18n.js";
+import { t } from "../../../../../../i18n.js";
 
 /**
  * @param {string} avatarId

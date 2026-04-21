@@ -1,4 +1,4 @@
-import { t } from '../../../../../i18n.js';
+import { t } from "../../../../../../i18n.js";
 import { el } from "./dom.js";
 import {
   addGroup,
